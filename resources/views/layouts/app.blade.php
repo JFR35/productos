@@ -6,7 +6,7 @@
     <title>Tu Proyecto Laravel</title>
     @vite('resources/css/app.css')
 </head>
-<body>  {{-- El <body> está AQUÍ --}}
+<body>  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         </nav>
@@ -15,5 +15,11 @@
         @yield('content')  {{-- Aquí se insertará el contenido de las vistas --}}
     </div>
 
+    <footer>
+        <div class="container ">
+            <p class="text-center">Tu Proyecto Laravel</p>
+        </div>
+    </footer>
+    @vite('resources/js/app.js')
 </body>
 </html>
