@@ -13,7 +13,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto"> <!-- ms-auto para alinear a la derecha -->
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link active" href="{{ route('productos.index') }}">Productos</a>
                 </li>
@@ -24,12 +24,11 @@
         </div>
     </nav>
     
-
     <div class="container">  {{-- Contenedor principal para el contenido --}}
         @yield('content')  {{-- Aquí se insertará el contenido de las vistas --}}
     </div>
 
-    <footer class="bg-dark text-white py-2">
+    <footer class="bg-dark text-white py-2 -mt-2">
         <div class="container">
             <p class="text-center mb-0">Mi app de bebidas.</p>
         </div>
