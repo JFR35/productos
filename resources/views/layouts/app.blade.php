@@ -15,11 +15,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="{{ route('productos.index') }}">Productos</a>
+                    <a class="nav-link active" href="{{ route('productos.index') }}">Volver a Productos</a>
                 </li>
+                {{--
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('categorias.index') }}">Categorías</a>
+                    <a class="nav-link" href="{{ route('carrito.index') }}">Mi carrito de compras</a>
                 </li>
+                --}}
+                {{-- Si el usuario está autenticado, mostrar el enlace para cerrar sesión 
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('sesion.index') }}">Iniciar Sesión</a>
+                </li>
+                --}}
             </ul>
         </div>
     </nav>
