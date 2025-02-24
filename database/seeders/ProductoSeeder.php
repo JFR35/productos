@@ -14,9 +14,9 @@ class ProductoSeeder extends Seeder
     public function run(): void
     {
         DB::table('productos')->insert([
-            ['nombre_producto' => 'Café colombiano', 'descripcion' => 'Café de Colombia', 'precio' => 5.00, 'categoria_id' => 1],
-            ['nombre_producto' => 'Café guatemalteco', 'descripcion' => 'Café de Guatemala', 'precio' => 5.00, 'categoria_id' => 1],
-            ['nombre_producto' => 'Café etíope', 'descripcion' => 'Café de Etiopía', 'precio' => 5.00, 'categoria_id' => 1],
+            ['nombre_producto' => 'Café Colombiano', 'descripcion' => 'Café de Colombia', 'precio' => 6.00, 'categoria_id' => 1, 'imagen' => 'img/cafecolombia.webp'],
+            ['nombre_producto' => 'Café Guatemalteco', 'descripcion' => 'Café de Guatemala', 'precio' => 7.00, 'categoria_id' => 1, 'imagen' => 'img/cafecolombia.webp'],
+            ['nombre_producto' => 'Café Etíope', 'descripcion' => 'Café de Etiopía', 'precio' => 5.00, 'categoria_id' => 1, 'imagen' => 'img/cafecolombia.webp'],
         ]);
     }
 }
